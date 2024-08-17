@@ -20,5 +20,7 @@ typedef struct listint_s
 /* Functions */
 
 /* 0 */
-void bubble_sort(int *, size_t);
-void bubble_sort_swap(int *, int *);
+void bubble_sort(int *array, size_t size);
+void print_array(const int *array, size_t size);
+
+#endif /* _SORT_H_ */
